@@ -1,0 +1,151 @@
+.liner {
+    background: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.liner-h3 {
+    background: linear-gradient(to right, red, yellow, red);
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+/* .color-h1 {
+    background-color: red;
+    text-align: center;
+    padding-bottom: 2px;
+    color: white;
+} */
+
+#div-nav {
+    border: red solid 5px;
+    border-radius: 20px;
+    width: 10%;
+    padding-left: 22%;
+    padding-right: 22%;
+    background-color: aqua;
+
+}
+
+#div-con {
+    border: 2px solid red;
+    border-radius: 15px;
+    display: flex;
+    background-color: aqua;
+    margin-top: 20px;
+}
+
+.items {
+    border: 2px solid green;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+#div-gradiance {
+    border: 2px solid green;
+    background: radial-gradient(rgb(68, 68, 230), rgb(52, 174, 52));
+    display: flex;
+    text-decoration: underline;
+    color: brown;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.div-g {
+    border: 2px solid red;
+    background-color: yellow;
+    border-radius: 12px;
+    padding: 10PX;
+    text-align: center;
+    width: 180px;
+
+}
+
+.div-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-gap: 20px;
+}
+
+.div-grid-1 {
+    background-color: rgb(198, 49, 49);
+    border: 0px solid black;
+    text-align: center;
+    padding-bottom: 2px;
+    color: white;
+    grid-column: 1/5;
+    height: 40px;
+}
+
+.div-grid-2 {
+    background-color: rgb(65, 222, 65);
+    border: 0px solid black;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: auto;
+    grid-column: 1/2;
+    height: 70px;
+}
+
+.div-grid-3 {
+    background-color: rgb(55, 78, 210);
+    border: 0px solid black;
+    align-items: center;
+    color: white;
+    width: auto;
+    grid-column: 2/3;
+    height: 70px;
+}
+
+.div-grid-4 {
+    background-color: rgb(10, 37, 192);
+    border: 0px solid black;
+    align-items: center;
+    color: white;
+    width: auto;
+    grid-column: 3/4;
+    height: 70px;
+}
+
+.div-grid-5 {
+    background-color: rgb(38, 38, 38);
+    border: 0px solid black;
+    align-items: center;
+    color: white;
+    width: auto;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    height: auto;
+
+}
+
+.div-grid-6 {
+    background-color: rgb(232, 91, 21);
+    border: 0px solid black;
+    align-items: center;
+    color: white;
+    margin-top: 2px;
+    width: auto;
+    grid-column: 1/4;
+    height: 150px;
+}
+
+.div-grid-7 {
+    background-color: rgb(21, 225, 232);
+    border: 0px solid black;
+    align-items: center;
+    text-align: center;
+    color: rgb(16, 15, 15);
+    margin-bottom: 50px;
+    width: auto;
+    grid-column: 1/5;
+    height: 40px;
+}
